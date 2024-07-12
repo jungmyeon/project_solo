@@ -1,0 +1,51 @@
+
+.header{
+    margin: 3rem auto 3rem auto;
+    width: 90%;
+    max-width: 75rem;
+    text-align: center;
+}
+
+.main{
+    width: 90%;
+    max-width: 75rem;
+    margin: 3rem auto;
+}
+
+.main p{
+    align-items: center;
+}
+.form{
+    max-width: 80rem;
+}
+
+.form label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.form input, .form textarea{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    border: 1px solid gray;
+}
+
+
+.row p {
+    width: 100%;
+}
+
+.actions{
+    text-align: right;
+    padding: 30px 5px;
+}
+
+.actions button{
+    padding: 5px 10px;
+}

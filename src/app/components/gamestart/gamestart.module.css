@@ -1,0 +1,31 @@
+.game{
+    position: absolute;
+    left: 74.5%;
+    top: 20%;
+    padding:15px 40px;
+    border-radius: 10px;
+    background: burlywood;
+    border: none;
+}
+
+.game button{
+    border: none;
+    background: burlywood;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media (max-width:1500px){
+    .game{
+        position: fixed;
+        right: 100px;
+        width: 150px;
+        left: 1270px;
+        top: 175px;
+    }
+}

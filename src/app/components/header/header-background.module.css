@@ -1,0 +1,10 @@
+.headerbackground{
+    width: 100%;
+    background: #deb887;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    height: 103px;
+    margin: 0;
+    padding: 0;
+}

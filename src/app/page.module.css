@@ -1,0 +1,33 @@
+.info{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.slide{
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    background: blanchedalmond;
+}
+
+
+
+@media (max-width: 786px){
+    .info{
+        position: fixed;
+        max-width: 680px;
+    }
+    .slide{
+        position: fixed;
+        top: 6.2rem;
+        height: 25rem;
+        width: 50rem;
+    }
+}
+
+
+
+

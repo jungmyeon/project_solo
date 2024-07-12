@@ -1,0 +1,38 @@
+.navbar{
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 45% ;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.navbar img{
+    width: 10rem;
+    height: 6.2rem;
+}
+
+.logo{
+    align-items: center;
+}
+
+@media (max-width:786px){
+    .navbar{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100%;
+    }
+    .login{
+    border: 3px solid black;
+    border-radius: 30px;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    }
+}

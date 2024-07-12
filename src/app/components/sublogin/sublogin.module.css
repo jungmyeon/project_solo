@@ -1,0 +1,60 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70%;
+    top: 35%;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: burlywood;
+}
+
+.login button{
+    padding: 10px 70px;
+    cursor: pointer;
+}
+
+.login p{
+    font-size: x-small;
+    text-decoration: none;
+}
+.btn{
+    padding: 1px 5px !important;
+}
+.myinfo{
+    text-align: center;
+}
+
+.action{
+    display: flex;
+    gap: 10px;
+}
+
+.action a{
+    text-decoration: none;
+    color: black;
+}
+.mylogout{
+    width: 40px;
+    font-size: 9px;
+    border: none;
+    cursor: pointer;
+}
+
+.Link{
+    text-decoration: none;
+}
+
+@media(max-width:1500px){
+    .login{
+    display: flex;
+    left: 1200px;
+    top: 130px;
+    width: 300px;
+    height: 150px;
+    }
+
+}
