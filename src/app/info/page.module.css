@@ -1,5 +1,10 @@
-.img{
-    width: 100px;
-    height: 100px;
-    border-radius: 9999px;
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 9999px;
+}
+
+.info {
+  width: 200px;
+  height: 200px;
 }

@@ -1,39 +1,43 @@
-.detail{
-    margin-top: 2rem;
-    width: 100%;
-    text-align: center;
-    position: relative;
-    border: 1px solid black;
-    border-bottom: none;
+.detail {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  border: 1px solid black;
+  border-bottom: none;
 }
-.detail h2{
-    margin-bottom: 1rem;
-}
-.write{
-    position: absolute;
-    right: 1rem;
-    top: 0.3rem;
-    padding: 2px 15px;
-    border-radius: 10px;
-    border: 1px solid black;
-    font-size: small;
-    background: lightgray;
-    font-weight: bold;
+.detail h2 {
+  margin: 1rem 0;
 }
 
-.detailmain{
-    position: relative;
-    margin: 3rem auto;
-    width: 80%;
-    height: 90%;
+.detail span {
+  margin-top: 1rem;
 }
-.detailbtn{
-    margin-top: 0.5rem;
-    position: absolute;
-    right: 0;
-    padding: 3px 10px;
-    background: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    cursor: pointer;
+.write {
+  position: absolute;
+  right: 1rem;
+  top: 0.3rem;
+  padding: 2px 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: small;
+  background: lightgray;
+  font-weight: bold;
+}
+
+.detailmain {
+  position: relative;
+  margin: 3rem auto;
+  width: 80%;
+  height: 90%;
+}
+.detailbtn {
+  margin-top: 0.5rem;
+  position: absolute;
+  right: 0;
+  padding: 3px 10px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
 }

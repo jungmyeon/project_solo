@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import styles from "./page.module.css";
 import { connectDB } from "@/util/db";
@@ -13,18 +12,19 @@ import Board from "./borad/page";
 import Submain from "./components/submain/submain";
 
 export default async function Home() {
-  let session = await getServerSession(authOptions)
+  let session = await getServerSession(authOptions);
 
   return (
     <>
       <div className={styles.info}>
         <div className={styles.slide}>
-          {session ? <GameStart/> : null}
-          <Slide/><SubLogin login={session}/>
+          {session ? <GameStart /> : null}
+          <Slide />
+          <SubLogin login={session} />
         </div>
       </div>
       <div className={styles.submain}>
-      <Submain/>
+        <Submain />
       </div>
     </>
   );

@@ -1,75 +1,78 @@
-
-.detail{
-    border: 1px solid black;
-    width: 400px;
-    height: 400px;
-    max-width: 400px;
-    min-width: 390px;
+.detail {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  max-width: 400px;
+  min-width: 390px;
 }
 
-.detailhead{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid black;
+.detailhead {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 
-.detail span{
-    font-size: small;
-    margin-right: 10px;
-    cursor: pointer;
-    margin-top: 5px;
-    
+.detail span {
+  font-size: small;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-top: 5px;
 }
 
-.detail h2{
-    margin-left: 10px;
+.detail h2 {
+  margin-left: 10px;
 }
 
-.detail a{
-    text-decoration: none;
-    color: black;
-    height: 32px;
+.detail a {
+  text-decoration: none;
+  color: black;
+  height: 32px;
 }
 
-.board{
-    border: 1px solid black;
-    width: 400px;
-    height: 400px;
-    max-width: 400px;
-    min-width: 390px;
+.board {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  max-width: 400px;
+  min-width: 390px;
 }
 
-.boardhead{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid black;
+.boardhead {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
 }
-.board span{
-    font-size: small;
-    margin-right: 10px;
-    cursor: pointer;
-    margin-top: 5px;
-}
-
-.board h2{
-    margin-left: 10px;
+.board span {
+  font-size: small;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-top: 5px;
 }
 
-.board a{
-    text-decoration: none;
-    color: black;
-    height: 32px;
+.board h2 {
+  margin-left: 10px;
 }
 
-
-.submain{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    background: blanchedalmond;
-    padding: 30px 0;
-    text-decoration: none;
+.board a {
+  text-decoration: none;
+  color: black;
+  height: 32px;
 }
 
+.submain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  background: blanchedalmond;
+  padding: 30px 0;
+  text-decoration: none;
+}
 
+.recommand {
+  text-align: center;
+}
+
+.recommand span {
+  font-size: 100px;
+}
