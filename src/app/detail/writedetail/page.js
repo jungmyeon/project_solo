@@ -1,4 +1,4 @@
-import wirteAction from '@/lib/action'
+import wirteAction from '@/pages/api/post/action'
 import styles from './page.module.css'
 
 export default function WriteDetail(){
@@ -10,7 +10,7 @@ export default function WriteDetail(){
                 </h2>
             </header>
             <main className={styles.main}>
-                <form className={styles.form} action={wirteAction}>
+                <form className={styles.form} action='/api/post/action' method='POST'>
                     <div className={styles.row}>
                         <p>
                             <label htmlFor='name'>작성자</label>

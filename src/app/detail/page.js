@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import styles from "./page.module.css";
 import { connectDB } from "@/util/db";
@@ -11,6 +12,8 @@ export default async function Detail() {
     ...item,
     _id: item._id.toString(),
   }));
+
+
   console.log(notices);
 
   return (
@@ -18,15 +21,12 @@ export default async function Detail() {
       <div className={styles.detail}>
         <h2>공지사항</h2>
         <hr />
-        <NoticeItem notices={notices} />
+        <NoticeItem notices={notices}/>
         <div>
           <Link href="/detail/writedetail">
             <span className={styles.write}>새등록</span>
           </Link>
         </div>
-      </div>
-      <div>
-        <span className={styles.detailbtn}>삭제</span>
       </div>
     </div>
   );

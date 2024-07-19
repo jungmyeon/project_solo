@@ -1,0 +1,17 @@
+.Noticedetail{
+    border: 1px solid black;
+    width: 500px;
+    height: 700px;
+    margin: 3rem auto;
+    overflow-wrap: break-word;
+}
+
+.Noticedetail h2{
+    padding: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.Noticedetail p{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
