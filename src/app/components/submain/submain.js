@@ -2,6 +2,9 @@ import Link from "next/link";
 import styles from "./submain.module.css";
 import { connectDB } from "@/util/db";
 import NoticeItem from "../notice/notice-item";
+import SubmainNotice from "../submain-notice/submain-notice";
+import Count from "../count/count";
+
 
 export default async function Submain() {
   const db = (await connectDB).db("mydb");
@@ -23,11 +26,10 @@ export default async function Submain() {
             <span>더보기</span>
           </Link>
         </div>
-        <NoticeItem notices={notices} />
+        <SubmainNotice notices={notices} />
       </div>
       <div className={styles.recommand}>
-        <p>이게임을 추천합니다</p>
-        <span>👍</span>
+        <Count/>
       </div>
     </div>
   );

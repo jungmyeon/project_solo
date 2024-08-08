@@ -1,0 +1,24 @@
+.noticeitem{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 50px;
+    align-items: center;
+}
+
+.noticeitem p{
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    color: black;
+}
+
+.noticeitem a{
+    text-decoration: none;
+}
+
+.noticeitem span{
+    font-size: small;
+    margin: 0.5rem;
+}
+
+  
